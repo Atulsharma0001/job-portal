@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.0/css/all.min.css" integrity="sha512-ApSLB1Pd3/bZN8fWB/RG9YhN/7bd9Hkf3AGaE2mPfebjrxagjuBtx2GcgdqIlJkUzwylBo61r9Xa9NmgBI0swA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>job portal</title>
     
@@ -19,7 +19,8 @@
         
       </div>
 
-<div class="data"><p>Already Registered? Login here</p>
+<div class="data">
+  <p>Already Registered?<a href="login.html">login here</a> </p>
     </div>
 
  </div>
@@ -52,35 +53,36 @@
     </div>
 
 
+
     <div class="right-panel">
       <div class="inner-box">
         <div class="point1">
-          <h2>Create your Naukri profile</h1>
+          <h2>Create your Carrier Connect profile</h1>
             <p>Search & apply to jobs from India's No.1 Job Site</p>
       </div>
 
       <div class="name">
         <label for="Full name">Full name</label>
-        <input type="text" id="Fullname" placeholder="what is your name?">
+        <input type="text" id="Full name" placeholder="what is your name?" required>
 
       </div>
 
       <div class="Email-ID">
         <label for="Email ID">Email ID</label>
-          <input type="text" id="Email ID" placeholder="Tell me your Email ID">
+          <input type="email" id="Email ID" placeholder="Tell me your Email ID" required>
    
     </div>
 
     <div class="Email-ID">
       
       <label for="Password">Password</label>
-          <input type="text" id="Email ID" placeholder="(Minimum 6 characters)">
+          <input type="password" id="Password" placeholder="(Minimum 6 characters)" required>
 
     </div>
 
     <div class="Email-ID">
       <label for="Mobile Number">Mobile Number</label>
-          <input type="text" id="Email ID" placeholder="Enter your mobile number">
+          <input type="tel" id="Mobile Number" placeholder="Enter your mobile number">
 </div>
 
 
@@ -109,7 +111,7 @@
     
 
     <div class="regist">
-      <h3>Register Now</h3>
+      <button type="submit">Register Now</button>
     </div>
 
 
